@@ -1,0 +1,72 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update branding to A B Digital Craft",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "summary": "Update HTML document title to 'A B Digital Craft'",
+      "acceptanceCriteria": [
+        "The browser tab displays 'A B Digital Craft' as the page title",
+        "The title tag in index.html contains 'A B Digital Craft'"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Replace the <title> tag content from 'Digital Marketing' to 'A B Digital Craft' in the HTML document head"
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Update hero section headline to feature 'A B Digital Craft' with tagline",
+      "acceptanceCriteria": [
+        "The hero headline displays 'A B Digital Craft' prominently",
+        "The tagline 'Your Success Digital Partner' is visible beneath or integrated with the headline",
+        "Existing gradient overlay and brand colors (coral/amber/teal) are preserved",
+        "Text remains readable against the background"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Replace the headline text to prominently display 'A B Digital Craft' and integrate the tagline 'Your Success Digital Partner' while maintaining the existing gradient overlay, brand color styling, and layout structure"
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Integrate A B Digital Craft logo into header or hero section",
+      "acceptanceCriteria": [
+        "The A B Digital Craft logo with the black 'A', purple 'B', and full text lockup is visible on the page",
+        "Logo is rendered as an image from the static assets directory",
+        "Logo maintains proper aspect ratio and quality",
+        "Logo placement complements the existing layout without disrupting other sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Add an <img> element rendering the A B Digital Craft logo from frontend/public/assets/generated/ab-digital-logo.dim_800x600.png, positioning it appropriately within the hero section layout while maintaining proper aspect ratio and ensuring it complements the existing headline and CTA elements"
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Update Footer copyright to display 'A B Digital Craft'",
+      "acceptanceCriteria": [
+        "Footer displays '© [current year] A B Digital Craft. All rights reserved.' or similar",
+        "Existing caffeine.ai attribution and heart icon remain unchanged",
+        "Footer styling and layout remain consistent with current design"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the copyright text to display 'A B Digital Craft' as the copyright holder instead of the current generic text, while preserving the dynamic year, caffeine.ai attribution, heart icon, and existing footer styling"
+        }
+      ]
+    }
+  ]
+}

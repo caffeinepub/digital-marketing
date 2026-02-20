@@ -1,0 +1,77 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-html-document-title-from-digital-marketing-to-a-b-digital-craft-in-frontend-index-html",
+      "featureTitle": "Update the HTML document title from 'Digital Marketing' to 'A B Digital Craft' in frontend/index.html",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-the-hero-section-headline-to-prominently-feature-a-b-digital-craft-as-the-company-name-with-the-tagline-your-success-digital-partner-maintaining-the-existing-layout-and-brand-color-styling",
+      "featureTitle": "Replace the hero section headline to prominently feature 'A B Digital Craft' as the company name with the tagline 'Your Success Digital Partner', maintaining the existing layout and brand color styling",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-integrate-the-uploaded-a-b-digital-craft-logo-featuring-black-a-purple-b-and-full-branding-lockup-into-the-website-header-or-hero-section-as-a-static-asset-rendered-from-frontend-public-assets-generated-ab-digital-logo-png",
+      "featureTitle": "Integrate the uploaded A B Digital Craft logo (featuring black 'A', purple 'B', and full branding lockup) into the website header or hero section as a static asset rendered from frontend/public/assets/generated/ab-digital-logo.png",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-footer-component-to-display-a-b-digital-craft-as-the-copyright-holder-instead-of-a-generic-name-maintaining-the-existing-copyright-year-and-caffeine-ai-attribution",
+      "featureTitle": "Update the Footer component to display 'A B Digital Craft' as the copyright holder instead of a generic name, maintaining the existing copyright year and caffeine.ai attribution",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

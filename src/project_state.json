@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Digital marketing website with sections for services, portfolio/case studies, client testimonials, and contact form",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- A B Digital Craft logo with black 'A', purple 'B' interlocking design, 'DIGITAL CRAFT' text in purple, and tagline 'YOUR SUCCESS DIGITAL PARTNER' in gray, optimized for web header display (ab-digital-logo.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-with-compelling-headline-subheadline-describing-digital-marketing-expertise-and-a-prominent-call-to-action-button",
+      "title": "Create a hero section with compelling headline, subheadline describing digital marketing expertise, and a prominent call-to-action button",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-section-displaying-digital-marketing-offerings-including-seo-social-media-marketing-content-marketing-ppc-advertising-email-marketing-and-analytics-with-descriptions-for-each-service",
+      "title": "Build a services section displaying digital marketing offerings including SEO, social media marketing, content marketing, PPC advertising, email marketing, and analytics with descriptions for each service",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-portfolio-section-showcasing-case-studies-with-project-titles-client-names-brief-descriptions-of-work-done-and-results-achieved",
+      "title": "Create a portfolio section showcasing case studies with project titles, client names, brief descriptions of work done, and results achieved",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-testimonials-section-displaying-client-feedback-with-client-names-company-names-and-testimonial-text",
+      "title": "Build a testimonials section displaying client feedback with client names, company names, and testimonial text",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-form-with-fields-for-name-email-phone-number-service-interest-and-message-with-form-validation",
+      "title": "Create a contact form with fields for name, email, phone number, service interest, and message, with form validation",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-creative-professional-visual-theme-with-sophisticated-color-palette-avoiding-blue-and-purple-elegant-typography-and-modern-layout-that-conveys-expertise-and-trustworthiness-appropriate-for-a-digital-marketing-agency",
+      "title": "Design a creative, professional visual theme with sophisticated color palette (avoiding blue and purple), elegant typography, and modern layout that conveys expertise and trustworthiness appropriate for a digital marketing agency",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-html-document-title-from-digital-marketing-to-a-b-digital-craft-in-frontend-index-html",
+      "title": "Update the HTML document title from 'Digital Marketing' to 'A B Digital Craft' in frontend/index.html",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-hero-section-headline-to-prominently-feature-a-b-digital-craft-as-the-company-name-with-the-tagline-your-success-digital-partner-maintaining-the-existing-layout-and-brand-color-styling",
+      "title": "Replace the hero section headline to prominently feature 'A B Digital Craft' as the company name with the tagline 'Your Success Digital Partner', maintaining the existing layout and brand color styling",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-integrate-the-uploaded-a-b-digital-craft-logo-featuring-black-a-purple-b-and-full-branding-lockup-into-the-website-header-or-hero-section-as-a-static-asset-rendered-from-frontend-public-assets-generated-ab-digital-logo-png",
+      "title": "Integrate the uploaded A B Digital Craft logo (featuring black 'A', purple 'B', and full branding lockup) into the website header or hero section as a static asset rendered from frontend/public/assets/generated/ab-digital-logo.png",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-component-to-display-a-b-digital-craft-as-the-copyright-holder-instead-of-a-generic-name-maintaining-the-existing-copyright-year-and-caffeine-ai-attribution",
+      "title": "Update the Footer component to display 'A B Digital Craft' as the copyright holder instead of a generic name, maintaining the existing copyright year and caffeine.ai attribution",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Services section showcasing digital marketing offerings",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Portfolio/case studies section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Client testimonials section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Contact form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Implement backend storage for contact form submissions with fields for name, email, phone, service interest, message, and timestamp",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Digital Marketing",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

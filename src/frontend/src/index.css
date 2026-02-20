@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Warm, professional palette with coral and amber */
+        --background: 0.99 0 0;
+        --foreground: 0.20 0 0;
+        
+        --card: 1 0 0;
+        --card-foreground: 0.20 0 0;
+        
+        --popover: 1 0 0;
+        --popover-foreground: 0.20 0 0;
+        
+        /* Coral primary */
+        --primary: 0.65 0.18 25;
+        --primary-foreground: 1 0 0;
+        
+        --secondary: 0.96 0.01 60;
+        --secondary-foreground: 0.20 0 0;
+        
+        --muted: 0.96 0.01 60;
+        --muted-foreground: 0.50 0.02 60;
+        
+        --accent: 0.94 0.02 60;
+        --accent-foreground: 0.20 0 0;
+        
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 1 0 0;
+        
+        --border: 0.90 0.01 60;
+        --input: 0.90 0.01 60;
+        --ring: 0.65 0.18 25;
+        
+        /* Brand colors */
+        --brand-coral: 0.65 0.18 25;
+        --brand-amber: 0.75 0.15 60;
+        --brand-teal: 0.60 0.12 180;
+        --brand-light: 0.95 0.05 60;
+        
+        --chart-1: 0.65 0.18 25;
+        --chart-2: 0.75 0.15 60;
+        --chart-3: 0.60 0.12 180;
+        --chart-4: 0.70 0.16 40;
+        --chart-5: 0.55 0.14 200;
+    }
+
+    .dark {
+        --background: 0.15 0 0;
+        --foreground: 0.98 0 0;
+        
+        --card: 0.20 0 0;
+        --card-foreground: 0.98 0 0;
+        
+        --popover: 0.18 0 0;
+        --popover-foreground: 0.98 0 0;
+        
+        /* Lighter coral for dark mode */
+        --primary: 0.70 0.18 25;
+        --primary-foreground: 0.15 0 0;
+        
+        --secondary: 0.25 0.01 60;
+        --secondary-foreground: 0.98 0 0;
+        
+        --muted: 0.25 0.01 60;
+        --muted-foreground: 0.65 0.02 60;
+        
+        --accent: 0.30 0.02 60;
+        --accent-foreground: 0.98 0 0;
+        
+        --destructive: 0.60 0.22 25;
+        --destructive-foreground: 0.98 0 0;
+        
+        --border: 0.30 0.01 60;
+        --input: 0.30 0.01 60;
+        --ring: 0.70 0.18 25;
+        
+        /* Brand colors for dark mode */
+        --brand-coral: 0.70 0.18 25;
+        --brand-amber: 0.78 0.15 60;
+        --brand-teal: 0.65 0.12 180;
+        --brand-light: 0.90 0.05 60;
+        
+        --chart-1: 0.70 0.18 25;
+        --chart-2: 0.78 0.15 60;
+        --chart-3: 0.65 0.12 180;
+        --chart-4: 0.75 0.16 40;
+        --chart-5: 0.60 0.14 200;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}

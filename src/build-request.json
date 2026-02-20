@@ -1,0 +1,100 @@
+{
+  "kind": "build_request",
+  "title": "Update branding to A B Digital Craft",
+  "projectName": "A B Digital Craft",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Update the HTML document title from 'Digital Marketing' to 'A B Digital Craft' in frontend/index.html",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "A B Digital Craft"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The browser tab displays 'A B Digital Craft' as the page title",
+        "The title tag in index.html contains 'A B Digital Craft'"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Replace the hero section headline to prominently feature 'A B Digital Craft' as the company name with the tagline 'Your Success Digital Partner', maintaining the existing layout and brand color styling",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "A B Digital Craft",
+          "YOUR SUCCESS DIGITAL PARTNER"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The hero headline displays 'A B Digital Craft' prominently",
+        "The tagline 'Your Success Digital Partner' is visible beneath or integrated with the headline",
+        "Existing gradient overlay and brand colors (coral/amber/teal) are preserved",
+        "Text remains readable against the background"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Integrate the uploaded A B Digital Craft logo (featuring black 'A', purple 'B', and full branding lockup) into the website header or hero section as a static asset rendered from frontend/public/assets/generated/ab-digital-logo.png",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "A B Digital logo.png"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The A B Digital Craft logo with the black 'A', purple 'B', and full text lockup is visible on the page",
+        "Logo is rendered as an image from the static assets directory",
+        "Logo maintains proper aspect ratio and quality",
+        "Logo placement complements the existing layout without disrupting other sections"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Update the Footer component to display 'A B Digital Craft' as the copyright holder instead of a generic name, maintaining the existing copyright year and caffeine.ai attribution",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "A B Digital Craft"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays '© [current year] A B Digital Craft. All rights reserved.' or similar",
+        "Existing caffeine.ai attribution and heart icon remain unchanged",
+        "Footer styling and layout remain consistent with current design"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the backend/main.mo file",
+    "Preserve the existing color scheme (coral/amber/teal) and visual theme",
+    "Maintain all existing sections (Hero, Services, Portfolio, Testimonials, ContactForm, Footer)",
+    "Do not alter form functionality or backend integration"
+  ],
+  "nonGoals": [
+    "Changing the color palette to match the purple in the logo",
+    "Redesigning the overall layout or structure",
+    "Modifying service descriptions or portfolio content",
+    "Adding new sections or functionality"
+  ],
+  "imageRequirements": {
+    "required": [
+      "A B Digital Craft logo with black 'A', purple 'B' interlocking design, 'DIGITAL CRAFT' text in purple, and tagline 'YOUR SUCCESS DIGITAL PARTNER' in gray, optimized for web header display (ab-digital-logo.dim_800x600.png)"
+    ],
+    "edits": []
+  }
+}

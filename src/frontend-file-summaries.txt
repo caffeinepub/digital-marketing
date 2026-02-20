@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders all sections of the digital marketing website in order: Hero, Services, Portfolio, Testimonials, ContactForm, and Footer.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the A B Digital Craft logo, brand name as headline with tagline \"Your Success Digital Partner\", gradient overlay, and CTA button with smooth scroll to contact form.",
+  "frontend/src/components/Services.tsx": "Services section displaying six digital marketing services (SEO, Social Media, Content, PPC, Email, Analytics) in a responsive grid with icons, titles, descriptions, and hover effects.",
+  "frontend/src/components/Portfolio.tsx": "Portfolio section showcasing four case studies with client names, project descriptions, measurable results with icons, and service tags in a responsive two-column grid.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section displaying six client testimonials in a three-column grid with quotes, client names, roles, companies, and avatar initials.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with validation for name, email, phone, service selection dropdown, and message fields, integrating with backend submission and showing success state.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright information for \"A B Digital Craft\" with dynamic year, heart icon, and caffeine.ai attribution link with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for backend integration, including useSubmitEntry mutation for form submission and useGetAllEntries query for retrieving contact entries.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining a warm professional palette using coral, amber, and teal brand colors with support for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with brand colors (coral, amber, teal), custom font families (Inter, Outfit), enhanced border radius values, and additional shadow utilities.",
+  "frontend/index.html": "HTML entry point with updated page title \"A B Digital Craft\" in the document head."
+}
